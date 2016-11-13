@@ -2,7 +2,7 @@ import pickle, skimage, os
 import numpy as np
 from buildlib import preprocess, config
 from skimage.transform import PiecewiseAffineTransform, warp
-from skimage.io import imread, Image, imsave
+from skimage.io import imread, imsave
 
 data_folder = config.data_folder
 cleanUp = True
@@ -55,7 +55,7 @@ for filename, values in data_pca.iteritems():
 avim /= imlen
 avim *= 255  
 avim = avim.astype(np.uint8)
-imsave("./average.bmp", Image(avim))
+imsave("./average.bmp", avim)
 
 if cleanUp:
   import shutil

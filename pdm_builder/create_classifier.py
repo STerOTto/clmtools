@@ -15,11 +15,11 @@ for folder in ["cropped", "pcropped", "svmImages"]:
 
 files = {
 	"angry" : "angry.csv",
-	"disgusted" : "disgusted.csv",
-	"fear" : "fear.csv",
+	#"disgusted" : "disgusted.csv",
+	#"fear" : "fear.csv",
 	"happy" : "happy.csv",
 	"sad" : "sad.csv",
-	"surprised" : "surprised.csv",
+	#"surprised" : "surprised.csv",
 }
 
 classes = {}
