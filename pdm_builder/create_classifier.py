@@ -14,12 +14,14 @@ for folder in ["cropped", "pcropped", "svmImages"]:
 		os.makedirs(os.path.join(config.data_folder, folder))
 
 files = {
-	"angry" : "angry.csv",
+	#"angry" : "angry.csv",
 	#"disgusted" : "disgusted.csv",
 	#"fear" : "fear.csv",
-	"happy" : "happy.csv",
-	"sad" : "sad.csv",
+	#"happy" : "happy.csv",
+	#"sad" : "sad.csv",
 	#"surprised" : "surprised.csv",
+	"sleep" : "sleep.csv",
+	#"yawn" : "yawn.csv",
 }
 
 classes = {}
